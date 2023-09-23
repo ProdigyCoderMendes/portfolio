@@ -62,13 +62,6 @@ li:hover{
     color: white;
 }
 
-
-.meu-nome {
-    position: absolute;
-    top: 50%;
-    left: 7%;
-}
-
 #sobre img:hover{
     cursor: pointer;
     height: 450px;
@@ -77,8 +70,15 @@ li:hover{
 
 .card img:hover{
     cursor: pointer;
-    height: 120px;
+    height: 200px;
     transition: 0.5s;
+}
+
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
 }
 
 h1 {
@@ -155,7 +155,7 @@ section div a:hover {
 
 .card {
     background-color: #000000;
-    height: 365px;
+    height: 100%;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
@@ -163,7 +163,8 @@ section div a:hover {
 }
 
 .card img {
-    height: 100px;
+    border-radius: 20px;
+    height: 150px;
     padding-bottom: 5px;
 }
 
@@ -271,14 +272,15 @@ footer p {
         background-color: #191919; /* Adicione uma cor de fundo alternativa para dispositivos móveis */
         text-align: center;
         margin: auto;
+    
     }
 
     #home{
-        max-height: 300px;
+        height: 100%;
     }
 
     #projetos-id h2{
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .card-projetos{
@@ -320,17 +322,17 @@ footer p {
         align-items: center;
         justify-content: center;
         margin: 20px;
-        height: 250px;
-        max-height: 300px;
+        height: 300px;
+        max-height: 400px;
     }
 
     #sobre img:hover{
         cursor: pointer;
-        height: 300px;
+        height: 350px;
         transition: 0.5s;
     }
 
-     .card img{
+    .card img{
         height: 100px;
         max-height: 150px;
     }
