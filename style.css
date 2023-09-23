@@ -265,6 +265,10 @@ footer p {
         max-height: 300px;
     }
 
+    #projetos-id h2{
+        margin-top: 40px;
+    }
+
     .card-projetos{
         display: flex;
         flex-direction: column;
