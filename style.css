@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: scroll;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -243,4 +244,190 @@ footer p {
     color: #044063;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+
+
+/* midia queries */
+/* Estilos para telas menores (por exemplo, telas de celular) */
+@media screen and (max-width: 768px) {
+
+    *{
+        background-size: auto;
+    }
+    .caixa-principal {
+        background-image: none;
+        background-color: #191919; /* Adicione uma cor de fundo alternativa para dispositivos móveis */
+        text-align: center;
+        margin: auto;
+    
+    }
+
+    .card-projetos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-menu{
+        visibility: hidden;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    .portfolio {
+        font-size: 20px;
+    }
+
+    .caixa-principal h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 40px;
+    }
+
+
+    img{
+        max-height: 150px;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #sobre img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    #sobre a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .card{
+    background-color: #000000;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    background: cover;
+    height: 100%;
+    }
+
+    .card a{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .meu-nome {
+        position: static;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 15px; /* Reduza o padding para economizar espaço em dispositivos móveis */
+        text-align: center;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section div h2 {
+        font-size: 28px;
+    }
+
+    section div p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div a {
+        font-size: 16px;
+        padding: 8px 16px;
+        border-radius: 20px;
+    }
+
+    .projetos {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .projetos h2 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card h5 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card a {
+        font-size: 16px;
+        padding: 8px 16px;
+        border-radius: 20px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .social img {
+        height: 24px;
+    }
+
+    .social a {
+        height: 40px;
+        width: 40px;
+    }
+}
+
 
