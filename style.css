@@ -309,12 +309,6 @@ footer p {
         font-size: 40px;
     }
 
-
-    .card img{
-        height: 100px;
-        max-height: 120px;
-    }
-
     #sobre{
         display: flex;
         flex-direction: column;
@@ -327,12 +321,12 @@ footer p {
         justify-content: center;
         margin: 20px;
         height: 220px;
-        max-height: 260px;
+        max-height: 270px;
     }
 
     #sobre img:hover{
         cursor: pointer;
-        height: 260px;
+        height: 270px;
         transition: 0.5s;
     }
 
