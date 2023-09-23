@@ -69,6 +69,18 @@ li:hover{
     left: 7%;
 }
 
+#sobre img:hover{
+    cursor: pointer;
+    height: 450px;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    cursor: pointer;
+    height: 120px;
+    transition: 0.5s;
+}
+
 h1 {
     color: white;
     font-size: 75px;
