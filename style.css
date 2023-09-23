@@ -263,7 +263,10 @@ footer p {
         background-color: #191919; /* Adicione uma cor de fundo alternativa para dispositivos móveis */
         text-align: center;
         margin: auto;
-    
+    }
+
+    #home{
+        max-height: 300px;
     }
 
     .card-projetos{
